@@ -1,0 +1,29 @@
+{
+  "name": "gifinator",
+  "version": "0.0.0",
+  "description": "Find a random GIF.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicksergeant/gifinator"
+  },
+  "keywords": [
+    "spark",
+    "spark.io",
+    "gif",
+    "gifs.is"
+  ],
+  "author": "Nick Sergeant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicksergeant/gifinator/issues"
+  },
+  "homepage": "https://github.com/nicksergeant/gifinator",
+  "dependencies": {
+    "spark-io": "^0.4.0",
+    "johnny-five": "^0.7.46"
+  }
+}
