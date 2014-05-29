@@ -17,7 +17,7 @@ console.log('Using SPARK_DEVICE_ID ' + process.env.SPARK_DEVICE_ID + '.');
 
 board.on('ready', function() {
 
-  console.log('Spark ready...');
+  console.log('Spark ready. Standby for GIFs...');
 
   var button = new five.Button('D5');
   var gifs;
@@ -29,6 +29,7 @@ board.on('ready', function() {
 
   request('http://gifs.is/api/items', function (err, response, body) {
     gifs = JSON.parse(body.replace(')]}\',\n', ''));
+    console.log(' - GIFs ready.');
   });
 
   button.on('down', function() {
