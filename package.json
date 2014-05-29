@@ -24,6 +24,7 @@
   "homepage": "https://github.com/nicksergeant/gifinator",
   "dependencies": {
     "spark-io": "^0.4.0",
-    "johnny-five": "^0.7.46"
+    "johnny-five": "^0.7.46",
+    "request": "^2.36.0"
   }
 }
